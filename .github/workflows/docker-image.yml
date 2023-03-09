@@ -31,4 +31,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: michbeck100/grafana-image-renderer:latest
+          tags: michbeck100/modbus-proxy:latest

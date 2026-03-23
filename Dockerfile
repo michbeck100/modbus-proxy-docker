@@ -1,4 +1,4 @@
-FROM python:3.9-alpine
+FROM python:3.12-alpine
 
 # install dependencies to the local user directory
 RUN pip install --no-cache-dir --upgrade modbus-proxy[yaml]
